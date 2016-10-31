@@ -16,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		01A20B131DC78C3100E867B6 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
 		7DA8ED581DBEE2440035BA81 /* ClosuresAreGreat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClosuresAreGreat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DA8ED5B1DBEE2440035BA81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7DA8ED5D1DBEE2440035BA81 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,6 +60,7 @@
 				7DA8ED5B1DBEE2440035BA81 /* AppDelegate.swift */,
 				7DA8ED5D1DBEE2440035BA81 /* ViewController.swift */,
 				7DA8ED6D1DBF91BF0035BA81 /* SortingStuff.swift */,
+				01A20B131DC78C3100E867B6 /* MyPlayground.playground */,
 				7DA8ED5F1DBEE2440035BA81 /* Main.storyboard */,
 				7DA8ED621DBEE2440035BA81 /* Assets.xcassets */,
 				7DA8ED641DBEE2440035BA81 /* LaunchScreen.storyboard */,

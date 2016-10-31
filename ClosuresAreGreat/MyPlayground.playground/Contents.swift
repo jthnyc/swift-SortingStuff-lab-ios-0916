@@ -1,3 +1,7 @@
+//: Playground - noun: a place where people can play
+
+import UIKit
+
 //
 //  SortingStuff.swift
 //  ClosuresAreGreat
@@ -7,7 +11,6 @@
 //
 
 import Foundation
-import UIKit
 
 
 struct ToyBin {
@@ -37,21 +40,17 @@ struct ToyBin {
         bowlingPins = bowlingPins.sorted { return $0.color.rawValue < $1.color.rawValue }
     }
     
-    
-    
-    mutating func sortMusicCDs() {
-        musicCDs = musicCDs.sorted { return $0.name > $1.name && $0.name == "Drake" }
-    }
-    
-    mutating func changeColorOfAllPins(to color: Color) {
-        bowlingPins = bowlingPins.map { bowlingPin in
-            var newBowlingPin = bowlingPin
-            newBowlingPin.changeColor(to: color)
-            return newBowlingPin
+    func sortMusicCDs() {
+        let sortedCDs = musicCDs.sorted { (firstCD: MusicCD, secondCD: MusicCD) -> Bool in
+            return
         }
     }
     
- 
+    func changeColorOfAllPins(to color: Color) {}
+    
+    
+    
+    
 }
 
 
@@ -72,10 +71,6 @@ struct BowlingPin {
     var name: String
     var film: String
     var color: Color
-    
-    mutating func changeColor(to color: Color) {
-        self.color = color
-    }
 }
 
 
@@ -84,8 +79,12 @@ enum Color: Int {
 }
 
 
+
 struct MusicCD {
     var name: String
     var year: Int
     var songs: [String]
 }
+
+var bin = ToyBin()
+print(bin)
